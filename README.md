@@ -14,6 +14,6 @@ It can also receive a second argument that stores variables that can be substitu
   var equation3 = '(1 + 1) * (3 * 5 / 2) + 3 / 3 + ((23 - 10.5) * 2)';
   console.log(smartCalculator(equation3)); //logs 41 to the console
 
-  var equation4 = '3 + 2 + 23 + a';
+  var equation4 = '3 + 2 + pi + a';
   console.log(smartCalculator(equation4, ['pi = 23', 'a = 21']); //logs 49 to the console
 ```
