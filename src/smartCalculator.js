@@ -18,8 +18,8 @@ function smartCalculator (arg1, arg2 = null) {
     }
 
     // run operations multiplication and division
-    calcString = preProcessStr(new RegExp(/[+-]?(\d*\.)?\d+ \* [+-]?(\d*\.)?\d+/, 'g'), calcString || arg1);
-    calcString = preProcessStr(new RegExp(/[+-]?(\d*\.)?\d+ \/ [+-]?(\d*\.)?\d+/, 'g'), calcString);
+    calcString = preProcessStr(new RegExp(/[+-]?(\d*\.)?\d+ \/ [+-]?(\d*\.)?\d+/, 'g'), calcString || arg1);
+    calcString = preProcessStr(new RegExp(/[+-]?(\d*\.)?\d+ \* [+-]?(\d*\.)?\d+/, 'g'), calcString);
 
     return calc(calcString);
   }
